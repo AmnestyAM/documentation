@@ -37,7 +37,7 @@ config:
   theme: base
 ---
 sequenceDiagram
-  participant AU as AspireUpdate on A WordPress Site
+  participant AU as AspireUpdate on a WordPress Site
   participant AC as AspireCloud (or YourCloud)
   participant Worg as WordPress.org API
   participant AS as AspireSync
@@ -60,7 +60,7 @@ This approach has several benefits:
 
 1. Scopes down AspireSync entirely out of the solution for now. No federation between AspireClouds for now. Initial mirror(s) start with zero plugins or themes and grow organically as demand for hosting on mirror grows. Installation is greatly reduced as you need AspireUpdate plugin at the user's end and AspireCloud service to handle update requests and delegate to .org if there is no asset to serve from configured API update endpoint.
 2. Hosting companies can set this up for their default WordPress installs with default AspireClouds on their own. Let a million mirrors bloom!
-3. Aspire Updater plugin is installed on a site. User can choose from a list of known AspireClouds, or it can be locked to one by host.
+3. AspireUpdate plugin is installed on a site. User can choose from a list of known AspireClouds, or it can be locked to one by host.
 4. The plugin rewrites all API calls to api.aspirepress.org or to another AspireCloud powered API. AP maintains for now a set of trusted API end points which correspond to AspireCloud mirrors.
 5. If AspireCloud has a response, that requested asset is available, we give the asset back to plugin.
 6. If AspireCloud does not have the asset, AspireUodate then calls .org canonical repo. It fetches the asset, pushes the whole response to AspireCloud to populate the mirror with the requested asset. This is how a specific AspireCloud gets populated with new assets beyond manual population by a plugin or theme developer.
@@ -68,7 +68,7 @@ This approach has several benefits:
 8. AspireCloud receives the asset, stores it in the data store. It can later serve requests for newly acquired asset.
 9. The asset that was pulled in from .org will expire after say 1 day (configurable).
 10. Once the asset expires, future requests to AspireCloud tells AspireUpdate that it doesn’t have the asset, fetches it again in the similar approach as above.
-11. The Process repeats as requests are made for updates. Deletgations are made to WordPress.org are made when an asset locally is not available.
+11. The process repeats as requests are made for updates. Deletgations are made to WordPress.org are made when an asset locally is not available.
 
 
 ## Testing AspireUpdate
@@ -113,7 +113,7 @@ Expected Results
 =======
 🚨Issues/Concerns
 
-- Need Another plugin dev/tester
+- Need another plugin dev/tester
 - A REST API dev to develop the AspireCloud
 - Need a technical architect for working out the overall design
 - Need testers!
