@@ -39,7 +39,7 @@ Expected Results
 ✅ "API Rerouted to" entries should reference api.aspirecloud.org.
 
 
-![](https://www.dummyimage.com/600x400/000/fff)
+![](https://github.com/AmnestyAM/documentation/blob/QuickStartGuides/img/GetErrors3.gif?raw=true)
 
 *A user viewing the log files using Error Log Viewer*
 
