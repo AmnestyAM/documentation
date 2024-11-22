@@ -18,3 +18,5 @@ AspireSync:
 AspireUpdate:
     Introduction: '/aspireupdate/'
     Work: '/aspireupdate/work/' 
+    Quick Start: '/aspireupdate/quickstart/'
+    Test: '/aspireupdate/test/'
