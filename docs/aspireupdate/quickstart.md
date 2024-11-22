@@ -7,7 +7,7 @@ permalink: /aspireupdate/quickstart/
 
 ## How to install AspireUpdate
 
-Download AspireUpdate
+### Download AspireUpdate
 
 - Go to https://github.com/aspirepress/aspireupdate/releases 
 - Look for the assets folder at the bottom of the latest release
@@ -17,7 +17,7 @@ Download AspireUpdate
 
 *A user downloading the AspireUpdate plugin from GitHub.*
 
-Install AspireUpdate 
+### Install AspireUpdate 
 
 - Go to the admin area of your staging or test site
 - Click on "Plugins"
@@ -30,7 +30,7 @@ Install AspireUpdate
 
 *A user installing the AspireUpdate plugin in the CMS. *
 
-Set AspireUpdate to update from the AspireCloud repository
+### Set AspireUpdate to update from the AspireCloud repository
 
 - Go to the admin area of your staging or test site
 - From the CMS dashboard select "AspireUpdate" /wp-admin/index.php?page=aspireupdate-settings
@@ -43,7 +43,7 @@ Set AspireUpdate to update from the AspireCloud repository
 
 *A user setting AspireCloud as the API end-point in the AspireUpdate plugin. *
 
-See that requests that were previously going to wordpress.org are now rerouted
+### See that requests that were previously going to wordpress.org are now rerouted
 
 - Go to the admin area of your staging or test site
 - Go to plugins
@@ -57,7 +57,7 @@ See that requests that were previously going to wordpress.org are now rerouted
 *A user seeing with the browers devloper tools that the updates are coming from AspireCloud *
 
 
-## Try AspireUpdate in WP Playground
+### Try AspireUpdate in WP Playground
 
 [Try out AspireUpdate WP Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/aspirepress/aspireupdate/refs/heads/playground-ready/assets/playground/blueprint.json)
 
