@@ -13,7 +13,8 @@ permalink: /aspireupdate/quickstart/
 - Look for the assets folder at the bottom of the latest release
 - Download the Zip file
 
-![](https://www.dummyimage.com/600x400/000/fff)
+![](https://github.com/AmnestyAM/documentation/blob/QuickStartGuides/img/GetAUfromGH.gif?raw=true)
+
 
 *A user downloading the AspireUpdate plugin from GitHub.*
 
@@ -26,8 +27,7 @@ permalink: /aspireupdate/quickstart/
 - Upload the file
 - Activate the plugin
 
-![](https://www.dummyimage.com/600x400/000/fff)
-
+![](https://raw.githubusercontent.com/AmnestyAM/documentation/refs/heads/QuickStartGuides/img/AddAUtoWP.gif)
 *A user installing the AspireUpdate plugin in the CMS. *
 
 ### Set AspireUpdate to update from the AspireCloud repository
@@ -39,7 +39,7 @@ permalink: /aspireupdate/quickstart/
 - Notice how the plugin manment page now references AspireUpdate
 - Note: The “Favorites” and “Features” tabs are unavailable 
 
-![](https://www.dummyimage.com/600x400/000/fff)
+![](https://github.com/AmnestyAM/documentation/blob/QuickStartGuides/img/SetAUtoDownloadFromAC.gif?raw=true)
 
 *A user setting AspireCloud as the API end-point in the AspireUpdate plugin. *
 
@@ -52,7 +52,7 @@ permalink: /aspireupdate/quickstart/
 - Add new or update an exiting plugin 
 - Notice URLs are now requesting plugins from AspireCloud
 
-![](https://www.dummyimage.com/600x400/000/fff)
+![](https://github.com/AmnestyAM/documentation/blob/QuickStartGuides/img/SeeRequestsGoingToAC.gif?raw=true)
 
 *A user seeing with the browers devloper tools that the updates are coming from AspireCloud *
 
