@@ -54,7 +54,7 @@ permalink: /aspireupdate/quickstart/
 
 ![](https://github.com/AmnestyAM/documentation/blob/QuickStartGuides/img/SeeRequestsGoingToAC.gif?raw=true)
 
-*A user seeing with the browers devloper tools that the updates are coming from AspireCloud *
+*A user seeing with the brower's devloper tools that updates are coming from AspireCloud *
 
 
 ### Try AspireUpdate in WP Playground
