@@ -7,13 +7,55 @@ permalink: /aspireupdate/quickstart/
 
 ## How to install AspireUpdate
 
-Download and Install AspireUpdate:
+Download AspireUpdate
 
-[Current Build](https://github.com/aspirepress/aspireupdate/tree/main)
-[Stable Build](https://github.com/aspirepress/aspireupdate/tree/playground-ready)
-[Releases](https://github.com/aspirepress/aspireupdate/releases)
+- Go to https://github.com/aspirepress/aspireupdate/releases 
+- Look for the assets folder at the bottom of the latest release
+- Download the Zip file
 
-No API Key is currently required.
+![](https://www.dummyimage.com/600x400/000/fff)
+
+*A user downloading the AspireUpdate plugin from GitHub.*
+
+Install AspireUpdate 
+
+- Go to the admin area of your staging or test site
+- Click on "Plugins"
+- Choose "Upload"
+- Select the previously downloaded file
+- Upload the file
+- Activate the plugin
+
+![](https://www.dummyimage.com/600x400/000/fff)
+
+*A user installing the AspireUpdate plugin in the CMS. *
+
+Set AspireUpdate to update from the AspireCloud repository
+
+- Go to the admin area of your staging or test site
+- From the CMS dashboard select "AspireUpdate" /wp-admin/index.php?page=aspireupdate-settings
+- Select AspireCloud as your API host
+- You can leave the API key blank, as no API key is required for now
+- Notice how the plugin manment page now references AspireUpdate
+- Note: The “Favorites” and “Features” tabs are unavailable 
+
+![](https://www.dummyimage.com/600x400/000/fff)
+
+*A user setting AspireCloud as the API end-point in the AspireUpdate plugin. *
+
+See that requests that were previously going to wordpress.org are now rerouted
+
+- Go to the admin area of your staging or test site
+- Go to plugins
+- Open developer tools in your browers
+- Look at the network traffic
+- Add new or update an exiting plugin 
+- Notice URLs are now requesting plugins from AspireCloud
+
+![](https://www.dummyimage.com/600x400/000/fff)
+
+*A user seeing with the browers devloper tools that the updates are coming from AspireCloud *
+
 
 ## Try AspireUpdate in WP Playground
 
@@ -22,30 +64,5 @@ No API Key is currently required.
 [Review the WP Playground blueprint.json](https://github.com/aspirepress/aspireupdate/blob/playground-ready/assets/playground/blueprint.json)
 
 
-## Testing AspireUpdate
 
-### Setting up AspireUpdate
-
-1. [Visit the WP Playground](https://playground.wordpress.net/?blueprint-url=https%3A%2F%2Fraw.githubusercontent.com%2Faspirepress%2Faspireupdate%2Frefs%2Fheads%2Fplayground-ready%2Fassets%2Fplayground%2Fblueprint.json)to load up WordPress, with AspireUpdate latest stable version..
-2. Check `Enable AspireUpdate API Rewrites`.
-3. Can leave API Key blank. (not yet generated or enforced)
-4. Check `Enable Debug Mode`.
-5. Check `String`.
-6. Click Save Changes.
-
-### Installing a plugin
-
-1. Navigate to Plugins -> Add New Plugin.
-2. Click Install Now beside any plugin.
-
-
-## FAQs
-
-**Q: Why can’t I find the “Favorites” or “Features” tab when adding a new plugin or theme in AspireUpdate?**
-A: In the current version of AspireUpdate, the “Favorites” and “Features” tabs are unavailable due to compatibility limitations.
-
-
-### Configuration
-
-By default the plugin is accessing the api.aspirecloud.org endpoint. There should be no other configuration required. You can turn on the debug log and reset the settings. Use the advanced=true query param in the settings screen to turn on advanced configuration settings.
 
