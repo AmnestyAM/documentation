@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Welcome to AspireGuide - AspireSync
-permalink: /aspirecloud/changelog/
+permalink: /aspiresync/changelog/
 ---
 
 # AspireSync Changelog
